@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B4o-66-3xz">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="3cB-P8-7c3">
+            <objects>
+                <navigationController id="B4o-66-3xz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zLQ-nJ-8zT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="L2V-UJ-zCk" kind="relationship" relationship="rootViewController" id="VC8-eb-KNz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V14-gk-fbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-121" y="348"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5cS-ks-Jgk">
+            <objects>
+                <viewController id="L2V-UJ-zCk" customClass="ViewController" customModule="Lab_6" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DSm-Ks-9vN"/>
+                        <viewControllerLayoutGuide type="bottom" id="ecE-pd-SOQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pGa-JP-5M7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pZq-5m-xEC">
+                                <rect key="frame" x="180" y="124" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pZq-5m-xEC" firstAttribute="top" secondItem="DSm-Ks-9vN" secondAttribute="bottom" constant="60" id="GAj-aG-9Qo"/>
+                            <constraint firstItem="pZq-5m-xEC" firstAttribute="leading" secondItem="pGa-JP-5M7" secondAttribute="leading" constant="180" id="aSh-K1-7Sj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kfl-qs-ekM">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="6eM-Ur-JYt">
+                            <connections>
+                                <segue destination="z5o-XX-qoE" kind="show" id="yka-A0-jS3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tXO-lf-Ddz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="348"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="njc-qp-kgd">
+            <objects>
+                <viewController id="z5o-XX-qoE" customClass="SettingsViewController" customModule="Lab_6" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZmT-5p-pva"/>
+                        <viewControllerLayoutGuide type="bottom" id="9cM-sC-xiJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VsW-U3-Qg2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recordings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWM-GA-74z">
+                                <rect key="frame" x="241" y="95" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OWM-GA-74z" firstAttribute="top" secondItem="ZmT-5p-pva" secondAttribute="bottom" constant="31" id="GfT-s2-oLx"/>
+                            <constraint firstItem="OWM-GA-74z" firstAttribute="centerX" secondItem="VsW-U3-Qg2" secondAttribute="centerX" constant="-15.5" id="Hps-tB-2Dt"/>
+                            <constraint firstItem="9cM-sC-xiJ" firstAttribute="top" secondItem="OWM-GA-74z" secondAttribute="bottom" constant="440" id="gS9-9P-NYp"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="8i4-Xb-gUO"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EVw-kP-STu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1563" y="348"/>
+        </scene>
+    </scenes>
+</document>
