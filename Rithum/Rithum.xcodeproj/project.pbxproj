@@ -16,7 +16,6 @@
 		91211DCB1C87A2BE004489CE /* Lab_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91211DCA1C87A2BE004489CE /* Lab_6UITests.swift */; };
 		FC79686C1C87BF42003F8B10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC79686B1C87BF42003F8B10 /* SettingsViewController.swift */; };
 		FC79686E1C87C1CE003F8B10 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC79686D1C87C1CE003F8B10 /* Extensions.swift */; };
-		FCDD55941CA60C480005BD0E /* Rithum in Resources */ = {isa = PBXBuildFile; fileRef = FCDD55931CA60C480005BD0E /* Rithum */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		91211DA71C87A2BE004489CE /* Lab 6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab 6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91211DA71C87A2BE004489CE /* Rithum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rithum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91211DAA1C87A2BE004489CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91211DAC1C87A2BE004489CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91211DAF1C87A2BE004489CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91211DB11C87A2BE004489CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91211DB41C87A2BE004489CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91211DB61C87A2BE004489CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91211DBB1C87A2BE004489CE /* Lab 6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91211DBB1C87A2BE004489CE /* Rithum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rithum.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91211DBF1C87A2BE004489CE /* Lab_6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_6Tests.swift; sourceTree = "<group>"; };
 		91211DC11C87A2BE004489CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91211DC61C87A2BE004489CE /* Lab 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lab 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91211DC61C87A2BE004489CE /* Rithum.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rithum.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91211DCA1C87A2BE004489CE /* Lab_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab_6UITests.swift; sourceTree = "<group>"; };
 		91211DCC1C87A2BE004489CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC79686B1C87BF42003F8B10 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FC79686D1C87C1CE003F8B10 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		FCDD55931CA60C480005BD0E /* Rithum */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Rithum; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,7 @@
 		91211D9E1C87A2BE004489CE = {
 			isa = PBXGroup;
 			children = (
-				91211DA91C87A2BE004489CE /* Lab 6 */,
+				91211DA91C87A2BE004489CE /* Rithum */,
 				91211DBE1C87A2BE004489CE /* Lab 6Tests */,
 				91211DC91C87A2BE004489CE /* Lab 6UITests */,
 				91211DA81C87A2BE004489CE /* Products */,
@@ -93,17 +91,16 @@
 		91211DA81C87A2BE004489CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91211DA71C87A2BE004489CE /* Lab 6.app */,
-				91211DBB1C87A2BE004489CE /* Lab 6Tests.xctest */,
-				91211DC61C87A2BE004489CE /* Lab 6UITests.xctest */,
+				91211DA71C87A2BE004489CE /* Rithum.app */,
+				91211DBB1C87A2BE004489CE /* Rithum.xctest */,
+				91211DC61C87A2BE004489CE /* Rithum.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91211DA91C87A2BE004489CE /* Lab 6 */ = {
+		91211DA91C87A2BE004489CE /* Rithum */ = {
 			isa = PBXGroup;
 			children = (
-				FCDD55931CA60C480005BD0E /* Rithum */,
 				91211DAA1C87A2BE004489CE /* AppDelegate.swift */,
 				91211DAC1C87A2BE004489CE /* ViewController.swift */,
 				91211DAE1C87A2BE004489CE /* Main.storyboard */,
@@ -113,7 +110,7 @@
 				91211DB61C87A2BE004489CE /* Info.plist */,
 				FC79686B1C87BF42003F8B10 /* SettingsViewController.swift */,
 			);
-			path = "Lab 6";
+			path = Rithum;
 			sourceTree = "<group>";
 		};
 		91211DBE1C87A2BE004489CE /* Lab 6Tests */ = {
@@ -137,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91211DA61C87A2BE004489CE /* Lab 6 */ = {
+		91211DA61C87A2BE004489CE /* Rithum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91211DCF1C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Lab 6" */;
+			buildConfigurationList = 91211DCF1C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Rithum" */;
 			buildPhases = (
 				91211DA31C87A2BE004489CE /* Sources */,
 				91211DA41C87A2BE004489CE /* Frameworks */,
@@ -149,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Lab 6";
+			name = Rithum;
 			productName = "Lab 6";
-			productReference = 91211DA71C87A2BE004489CE /* Lab 6.app */;
+			productReference = 91211DA71C87A2BE004489CE /* Rithum.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91211DBA1C87A2BE004489CE /* Lab 6Tests */ = {
+		91211DBA1C87A2BE004489CE /* RithumTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91211DD21C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Lab 6Tests" */;
+			buildConfigurationList = 91211DD21C87A2BE004489CE /* Build configuration list for PBXNativeTarget "RithumTests" */;
 			buildPhases = (
 				91211DB71C87A2BE004489CE /* Sources */,
 				91211DB81C87A2BE004489CE /* Frameworks */,
@@ -167,14 +164,14 @@
 			dependencies = (
 				91211DBD1C87A2BE004489CE /* PBXTargetDependency */,
 			);
-			name = "Lab 6Tests";
+			name = RithumTests;
 			productName = "Lab 6Tests";
-			productReference = 91211DBB1C87A2BE004489CE /* Lab 6Tests.xctest */;
+			productReference = 91211DBB1C87A2BE004489CE /* Rithum.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91211DC51C87A2BE004489CE /* Lab 6UITests */ = {
+		91211DC51C87A2BE004489CE /* RithumUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91211DD51C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Lab 6UITests" */;
+			buildConfigurationList = 91211DD51C87A2BE004489CE /* Build configuration list for PBXNativeTarget "RithumUITests" */;
 			buildPhases = (
 				91211DC21C87A2BE004489CE /* Sources */,
 				91211DC31C87A2BE004489CE /* Frameworks */,
@@ -185,9 +182,9 @@
 			dependencies = (
 				91211DC81C87A2BE004489CE /* PBXTargetDependency */,
 			);
-			name = "Lab 6UITests";
+			name = RithumUITests;
 			productName = "Lab 6UITests";
-			productReference = 91211DC61C87A2BE004489CE /* Lab 6UITests.xctest */;
+			productReference = 91211DC61C87A2BE004489CE /* Rithum.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91211DA61C87A2BE004489CE /* Lab 6 */,
-				91211DBA1C87A2BE004489CE /* Lab 6Tests */,
-				91211DC51C87A2BE004489CE /* Lab 6UITests */,
+				91211DA61C87A2BE004489CE /* Rithum */,
+				91211DBA1C87A2BE004489CE /* RithumTests */,
+				91211DC51C87A2BE004489CE /* RithumUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,7 +238,6 @@
 				91211DB51C87A2BE004489CE /* LaunchScreen.storyboard in Resources */,
 				91211DB21C87A2BE004489CE /* Assets.xcassets in Resources */,
 				91211DB01C87A2BE004489CE /* Main.storyboard in Resources */,
-				FCDD55941CA60C480005BD0E /* Rithum in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		91211DBD1C87A2BE004489CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91211DA61C87A2BE004489CE /* Lab 6 */;
+			target = 91211DA61C87A2BE004489CE /* Rithum */;
 			targetProxy = 91211DBC1C87A2BE004489CE /* PBXContainerItemProxy */;
 		};
 		91211DC81C87A2BE004489CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91211DA61C87A2BE004489CE /* Lab 6 */;
+			target = 91211DA61C87A2BE004489CE /* Rithum */;
 			targetProxy = 91211DC71C87A2BE004489CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -411,10 +407,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Lab 6/Info.plist";
+				INFOPLIST_FILE = Rithum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cs.4661.Lab-6";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rithum;
 			};
 			name = Debug;
 		};
@@ -422,10 +418,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Lab 6/Info.plist";
+				INFOPLIST_FILE = Rithum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cs.4661.Lab-6";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rithum;
 			};
 			name = Release;
 		};
@@ -433,11 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Lab 6Tests/Info.plist";
+				INFOPLIST_FILE = RithumTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cs.4661.Lab-6Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 6.app/Lab 6";
+				PRODUCT_NAME = Rithum;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rithum.app/Rithum";
 			};
 			name = Debug;
 		};
@@ -445,21 +441,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Lab 6Tests/Info.plist";
+				INFOPLIST_FILE = RithumTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cs.4661.Lab-6Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab 6.app/Lab 6";
+				PRODUCT_NAME = Rithum;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rithum.app/Rithum";
 			};
 			name = Release;
 		};
 		91211DD61C87A2BE004489CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Lab 6UITests/Info.plist";
+				INFOPLIST_FILE = RithumUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cs.4661.Lab-6UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rithum;
 				TEST_TARGET_NAME = "Lab 6";
 				USES_XCTRUNNER = YES;
 			};
@@ -468,10 +464,10 @@
 		91211DD71C87A2BE004489CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "Lab 6UITests/Info.plist";
+				INFOPLIST_FILE = RithumUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cs.4661.Lab-6UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rithum;
 				TEST_TARGET_NAME = "Lab 6";
 				USES_XCTRUNNER = YES;
 			};
@@ -489,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91211DCF1C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Lab 6" */ = {
+		91211DCF1C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Rithum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91211DD01C87A2BE004489CE /* Debug */,
@@ -498,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91211DD21C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Lab 6Tests" */ = {
+		91211DD21C87A2BE004489CE /* Build configuration list for PBXNativeTarget "RithumTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91211DD31C87A2BE004489CE /* Debug */,
@@ -507,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91211DD51C87A2BE004489CE /* Build configuration list for PBXNativeTarget "Lab 6UITests" */ = {
+		91211DD51C87A2BE004489CE /* Build configuration list for PBXNativeTarget "RithumUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91211DD61C87A2BE004489CE /* Debug */,

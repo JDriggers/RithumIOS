@@ -11,7 +11,10 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var speedTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let defaults = NSUserDefaults.standardUserDefaults()
+//        let defaults = NSUserDefaults.standardUserDefaults()
+        self.navigationItem.title = "Memos/Recordings";
+
+        
 //        if let timingSetting = defaults.valueForKey("timing") as?
 //            String {
 //                speedTextField.text = timingSetting

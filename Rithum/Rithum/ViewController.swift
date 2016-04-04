@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         NSNotificationCenter.defaultCenter().addObserver(self,
             selector: "defaultsChanged:", name:
             NSUserDefaultsDidChangeNotification, object: nil)
+        self.navigationItem.title = "Rithum";
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="B4o-66-3xz">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
@@ -23,7 +24,7 @@
         <!--View Controller-->
         <scene sceneID="5cS-ks-Jgk">
             <objects>
-                <viewController id="L2V-UJ-zCk" customClass="ViewController" customModule="Lab_6" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="L2V-UJ-zCk" customClass="ViewController" customModule="Rithum" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DSm-Ks-9vN"/>
                         <viewControllerLayoutGuide type="bottom" id="ecE-pd-SOQ"/>
@@ -34,8 +35,26 @@
                         <subviews>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pZq-5m-xEC">
                                 <rect key="frame" x="180" y="124" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OhA-eh-cdX">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="OhA-eh-cdX" secondAttribute="trailing" id="Y4a-DN-QTX"/>
+                                    <constraint firstAttribute="bottom" secondItem="OhA-eh-cdX" secondAttribute="bottom" id="Z7u-SK-Vrb"/>
+                                    <constraint firstItem="OhA-eh-cdX" firstAttribute="top" secondItem="pZq-5m-xEC" secondAttribute="top" id="ajq-mg-dsg"/>
+                                    <constraint firstItem="OhA-eh-cdX" firstAttribute="leading" secondItem="pZq-5m-xEC" secondAttribute="leading" id="hfo-4c-JlD"/>
+                                </constraints>
                             </view>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UdM-bH-hrd">
+                                <rect key="frame" x="-25" y="-20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="y4A-tx-4hy"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -44,12 +63,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Kfl-qs-ekM">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="6eM-Ur-JYt">
+                        <barButtonItem key="rightBarButtonItem" title="Memos" id="6eM-Ur-JYt">
                             <connections>
                                 <segue destination="z5o-XX-qoE" kind="show" id="yka-A0-jS3"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="colorView" destination="OhA-eh-cdX" id="GQo-SN-grW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXO-lf-Ddz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +80,7 @@
         <!--Settings View Controller-->
         <scene sceneID="njc-qp-kgd">
             <objects>
-                <viewController id="z5o-XX-qoE" customClass="SettingsViewController" customModule="Lab_6" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z5o-XX-qoE" customClass="SettingsViewController" customModule="Rithum" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZmT-5p-pva"/>
                         <viewControllerLayoutGuide type="bottom" id="9cM-sC-xiJ"/>
@@ -66,20 +88,7 @@
                     <view key="view" contentMode="scaleToFill" id="VsW-U3-Qg2">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recordings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWM-GA-74z">
-                                <rect key="frame" x="241" y="95" width="87" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="OWM-GA-74z" firstAttribute="top" secondItem="ZmT-5p-pva" secondAttribute="bottom" constant="31" id="GfT-s2-oLx"/>
-                            <constraint firstItem="OWM-GA-74z" firstAttribute="centerX" secondItem="VsW-U3-Qg2" secondAttribute="centerX" constant="-15.5" id="Hps-tB-2Dt"/>
-                            <constraint firstItem="9cM-sC-xiJ" firstAttribute="top" secondItem="OWM-GA-74z" secondAttribute="bottom" constant="440" id="gS9-9P-NYp"/>
-                        </constraints>
                     </view>
                     <toolbarItems>
                         <barButtonItem title="Item" id="8i4-Xb-gUO"/>

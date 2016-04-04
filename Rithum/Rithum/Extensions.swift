@@ -1,6 +1,6 @@
 //
 //  Extensions.swift
-//  Rithum
+//  lab4
 //
 //  Created by Daniel Ward on 2/17/16.
 //  Copyright © 2016 Daniel Ward. All rights reserved.
