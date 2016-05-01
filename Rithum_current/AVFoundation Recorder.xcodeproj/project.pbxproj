@@ -13,10 +13,8 @@
 		B005191D199BDB2E0070659F /* AVFoundation_RecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005191C199BDB2E0070659F /* AVFoundation_RecorderTests.swift */; };
 		B005192B199BDFAC0070659F /* RecordingsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005192A199BDFAC0070659F /* RecordingsCollectionViewController.swift */; };
 		B005192D199BE0F40070659F /* RecordingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B005192C199BE0F40070659F /* RecordingCollectionViewCell.swift */; };
-		B0266FE31BAEDF36009C7CB4 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0266FE21BAEDF36009C7CB4 /* .travis.yml */; };
 		B0266FE51BAEDFB0009C7CB4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0266FE41BAEDFB0009C7CB4 /* .gitignore */; };
 		B075BD97199C268800CDA3AB /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B075BD96199C268800CDA3AB /* RecorderViewController.swift */; };
-		B0A0D13A1B5593BF006FFCA1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0A0D1391B5593BF006FFCA1 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +35,10 @@
 		B0051916199BDB2E0070659F /* AVFoundation RecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVFoundation RecorderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B005191B199BDB2E0070659F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B005191C199BDB2E0070659F /* AVFoundation_RecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundation_RecorderTests.swift; sourceTree = "<group>"; };
-		B0051928199BDECB0070659F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B005192A199BDFAC0070659F /* RecordingsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingsCollectionViewController.swift; sourceTree = "<group>"; };
 		B005192C199BE0F40070659F /* RecordingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingCollectionViewCell.swift; sourceTree = "<group>"; };
-		B0266FE21BAEDF36009C7CB4 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		B0266FE41BAEDFB0009C7CB4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B075BD96199C268800CDA3AB /* RecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
-		B0A0D1391B5593BF006FFCA1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				B0266FE41BAEDFB0009C7CB4 /* .gitignore */,
-				B0266FE21BAEDF36009C7CB4 /* .travis.yml */,
-				B0A0D1391B5593BF006FFCA1 /* LICENSE */,
-				B0051928199BDECB0070659F /* README.md */,
 				B0051906199BDB2E0070659F /* AVFoundation Recorder */,
 				B0051919199BDB2E0070659F /* AVFoundation RecorderTests */,
 				B0051905199BDB2E0070659F /* Products */,
@@ -206,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0266FE31BAEDF36009C7CB4 /* .travis.yml in Resources */,
-				B0A0D13A1B5593BF006FFCA1 /* LICENSE in Resources */,
 				B005190F199BDB2E0070659F /* Main.storyboard in Resources */,
 				B0266FE51BAEDFB0009C7CB4 /* .gitignore in Resources */,
 				B0051911199BDB2E0070659F /* Images.xcassets in Resources */,
@@ -348,8 +338,6 @@
 		B0051921199BDB2E0070659F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "AVFoundation Recorder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -361,8 +349,6 @@
 		B0051922199BDB2E0070659F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "AVFoundation Recorder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

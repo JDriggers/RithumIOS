@@ -37,6 +37,8 @@ class RecordingsCollectionViewController: UICollectionViewController {
         doubleTap.numberOfTouchesRequired = 1
         doubleTap.delaysTouchesBegan = true
         self.collectionView?.addGestureRecognizer(doubleTap)
+        self.collectionView?.backgroundColor = UIColor(patternImage: UIImage(named: "background_new")!)
+
     }
     
     /**

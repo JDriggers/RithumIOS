@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_new" translatesAutoresizingMaskIntoConstraints="NO" id="CLf-Jo-uBC">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="768"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epE-QD-OIR">
                                 <rect key="frame" x="141" y="263" width="319" height="73"/>
                                 <constraints>
@@ -64,7 +67,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="Dxe-8A-63G"/>
                                 </constraints>
-                                <state key="normal" title="Play" image="Play-50">
+                                <state key="normal" image="Play-50">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -129,7 +132,7 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="recordingCell" id="8Xq-ld-PZS" customClass="RecordingCollectionViewCell" customModule="AVFoundation_Recorder" customModuleProvider="target">
-                                <rect key="frame" x="150" y="64" width="301" height="71"/>
+                                <rect key="frame" x="149.5" y="64" width="301" height="71"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="301" height="71"/>
@@ -189,5 +192,6 @@
         <image name="Circled Dot Filled-50" width="99" height="99"/>
         <image name="Play-50" width="50" height="50"/>
         <image name="Stop-50" width="50" height="50"/>
+        <image name="background_new" width="1600" height="1200"/>
     </resources>
 </document>
